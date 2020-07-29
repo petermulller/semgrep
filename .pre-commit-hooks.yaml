@@ -9,3 +9,11 @@
   description: This hook runs semgrep
   language: docker_image
   entry: returntocorp/semgrep:latest
+
+- id: semgrep
+  name: semgrep
+  entry: semgrep
+  language: python
+  args: []
+  require_serial: false
+  additional_dependencies: []
